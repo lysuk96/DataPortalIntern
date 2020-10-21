@@ -43,4 +43,8 @@ pip install openpyxl
 ```
 
 ## 결과
-![화면 캡처 2020-10-21 172053](https://user-images.githubusercontent.com/48303178/96693292-05fd4680-13c2-11eb-89f9-a449d4d4b3ee.jpg)
+### Before
+![화면 캡처 2020-10-21 172053](https://user-images.githubusercontent.com/48303178/96693292-05fd4680-13c2-11eb-89f9-a449d4d4b3ee.jpg)  
+
+### After
+![화면 캡처 2020-10-21 172139](https://user-images.githubusercontent.com/48303178/96693296-072e7380-13c2-11eb-880d-de3132767284.jpg)
