@@ -39,5 +39,8 @@ pip install openpyxl
 1. xlsx 파일명은 '1.xlsx'로 한다
 2. 해당 xlsx 파일을 '2_replacing.py'와 같은 dir에 포함시킨다.
 3. 콘솔창에 "python 2_replacing.py" 입력
-4. "Which row do you want to change? : " -> 역치환하려는 목록명 입력
+4. "Which row do you want to change? : " -> 역치환하려는 str목록명 입력 (자동 upper 변환됨)
 ```
+
+## 결과
+![화면 캡처 2020-10-21 172053](https://user-images.githubusercontent.com/48303178/96693292-05fd4680-13c2-11eb-89f9-a449d4d4b3ee.jpg)
