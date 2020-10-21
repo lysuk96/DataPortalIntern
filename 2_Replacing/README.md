@@ -2,16 +2,15 @@
 ----------------------
 
 ## 홈페이지 오류 설명
-> 특수문자들이 치환된 형태로 불려와, 원문을 판단하기 어려움.
-
+> 특수문자들이 치환된 형태로 불려와, 원문을 판단하기 어려움.  
 > .xlsx 파일에 오류 목록을 들여, 역치환 알고리즘 적용하여 저장
-
+<br/>
 
 ## 사용환경
 - Library : openpyxl
 - Tool : Visual Code
-- Language : Python
-
+- Language : Python   
+<br/>
 
 
 
@@ -31,8 +30,8 @@
 ### - openpyxl 설치
 ```
 pip install openpyxl
-```
-
+```   
+<br/>
 
 
 ## 사용법
