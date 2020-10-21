@@ -24,11 +24,11 @@ def chck_str(tmp) :
     return False, None
 
 def chg_str(tmp) :
-    chckMap = {"&lt;":"<","&gt;":">","&#38;":"&","&#x27;":"\'","&quot;":"\"","&#35;":"#","&#40;":"(","&#41;":")","&#x2F;":"/"}
+    chck_map = {"&lt;":"<","&gt;":">","&#38;":"&","&#x27;":"\'","&quot;":"\"","&#35;":"#","&#40;":"(","&#41;":")","&#x2F;":"/"}
     while (True):
-        row_limit, to_chg = chck_str(tmp)
-        if row_limit is False : break
-        tmp = tmp.replace(to_chg, chckMap[to_chg])
+        flag, to_chg = chck_str(tmp)
+        if flag is False : break
+        tmp = tmp.replace(to_chg, chck_map[to_chg])
     return tmp
 
 def fnd_row():
